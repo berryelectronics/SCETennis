@@ -1,0 +1,16 @@
+.nav {
+    display: inline-block;
+    float: none;
+}
+
+.nav li {
+    align-content: center;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+#slides {
+    display: none;
+}
