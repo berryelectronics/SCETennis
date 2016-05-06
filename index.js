@@ -3,6 +3,7 @@ $(document).ready(function () {
         anchors: ['a-startseite', 'a-about-us', 'a-gallerie', 'a-mannschaft', 'a-terminkalender', 'a-trainingszeiten', 'a-mitglied-werden'],
         sectionsColor: ['#1bbc9b', '#1E824C', '#1E824C', '#1E824C', '#1E824C', '#1E824C', '#1E824C'],
         loopBottom: true,
+        menu: '#navigation',
         afterRender: function () {
             setInterval(function () {
                 $.fn.fullpage.moveSlideRight();

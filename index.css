@@ -1,3 +1,42 @@
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 4em;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    
+    background-color: rgba(200, 200, 200, 0.7);
+}
+
+#navigation li {
+    float:left
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    font-family: "Open Sans";
+    font-size: 1.5em;
+}
+
+#navigation li a:hover {
+    background-color: rgba(30, 130, 76, 0.5);
+}
+
+#navigation .active {
+    background-color: rgba(30, 130, 76, 1);
+    color: white;
+}
+
 #startseite .startseite-branding {
     position: absolute;
     z-index: 10;
