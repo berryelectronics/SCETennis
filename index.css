@@ -18,11 +18,13 @@
     visibility: hidden;
 }
 
-#about-us {
+#about-us,
+#trainingszeiten {
     font-family: "Open Sans";
 }
 
-#about-us h1 {
+#about-us h1,
+#trainingszeiten h1 {
     text-align: center;
     font-weight: 700;
     font-size: 5em;
@@ -34,4 +36,18 @@
     text-align: justify;
     font-size: 1.5em;
     color: white;
+}
+
+#trainingszeiten table {
+    background-color: #00B16A;
+}
+
+#trainingszeiten td {
+    border: 1px solid #3FC380;
+    text-align: center;
+}
+
+#trainingszeiten th {
+    border: 2px solid #C8F7C5;
+    text-align: center;
 }

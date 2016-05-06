@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
         anchors: ['a-startseite', 'a-about-us', 'a-gallerie', 'a-mannschaft', 'a-terminkalender', 'a-trainingszeiten', 'a-mitglied-werden'],
-        sectionsColor: ['#1bbc9b', '#1E824C'],
+        sectionsColor: ['#1bbc9b', '#1E824C', '#1E824C', '#1E824C', '#1E824C', '#1E824C', '#1E824C'],
         loopBottom: true,
         afterRender: function () {
             setInterval(function () {
