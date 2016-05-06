@@ -1,0 +1,48 @@
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    height: 100vh;
+    width: auto;
+    padding: 0;
+    box-shadow: 0 5px 3px #bdc3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  display: inherit;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: inherit;
+  }
+
+.rslides img {
+    height: 100vh;
+    width: auto;
+} 
+
+.about-us .row {
+    text-align: justify;
+    font-family:  'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
