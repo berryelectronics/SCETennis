@@ -1,9 +1,36 @@
-#startseite .slide img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#startseite .startseite-branding {
+    position: absolute;
+    z-index: 10;
+    
+    left: 0;
+    top: 50%;;
+    width: 100%;
+    line-height: 0;
+    text-align: center;
+    
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 4em;
+    color: #ecf0f1;
 }
 
-#startseite .startseite-branding {
+#about-us {
+    font-family: "Open Sans";
     
+}
+
+#about-us h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4em;
+    color: white;
+    
+}
+
+#about-us p {
+    text-align: justify;
+}
+
+#about-us .content {
+    padding: 0 0 0 0;
 }
