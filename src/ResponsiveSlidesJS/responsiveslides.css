@@ -1,9 +1,10 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
 .rslides {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100vw;
-  height: auto;
+  width: 100%;
   padding: 0;
   margin: 0;
   }
@@ -29,9 +30,4 @@
   float: left;
   width: 100%;
   border: 0;
-}
-
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-}
+  }
