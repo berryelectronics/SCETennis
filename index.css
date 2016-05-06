@@ -14,23 +14,24 @@
     color: #ecf0f1;
 }
 
+#startseite .fp-controlArrow {
+    visibility: hidden;
+}
+
 #about-us {
     font-family: "Open Sans";
-    
 }
 
 #about-us h1 {
     text-align: center;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 5em;
     color: white;
     
 }
 
 #about-us p {
     text-align: justify;
-}
-
-#about-us .content {
-    padding: 0 0 0 0;
+    font-size: 1.5em;
+    color: white;
 }
