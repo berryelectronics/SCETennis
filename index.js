@@ -135,5 +135,15 @@ $('#ham').click(function () {
 
 $(window).on('resize', function () {
     resizeElements();
+    $.fn.fullpage.reBuild();
+
+});
+
+$('#scroll-arrow-up').click(function () {
+    $.fn.fullpage.moveSectionUp();
+});
+
+$('#scroll-arrow-down').click(function () {
+    $.fn.fullpage.moveSectionDown();
 });
 

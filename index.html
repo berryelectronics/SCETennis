@@ -33,15 +33,18 @@
         <button type="button" class="btn btn-default" id="ham">
             <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
         </button>
+        <div id="ham-arrow">
+            <p>Navigation</p>
+        </div>
+                
+        <div id="scroll-arrow-up"><span class="glyphicon glyphicon-chevron-up"></span></div>
+        <div id="scroll-arrow-down"><span class="glyphicon glyphicon-chevron-down"></span></div>
         
         <div id="fullpage">
             <div class="section" id="startseite">
                 <div class="startseite-branding">SC Eintracht Hamm Tennis</div>
-                <div class="slide" data-anchor="slide1"><img src="media/startseite/1.jpg"></div>
-                <div class="slide" data-anchor="slide2"><img src="media/startseite/2.jpg"></div>
-                <div class="slide" data-anchor="slide3"><img src="media/startseite/3.jpg"></div>
-                <div class="slide" data-anchor="slide4"><img src="media/startseite/4.jpg"></div>
-                <div class="slide" data-anchor="slide5"><img src="media/startseite/5.jpg"></div>
+                <div class="slide" data-anchor="slide1" data-vide-bg="media/startseite/ocean.avi"></div>
+                
             </div>
             
             <div class="section" id="about-us">
@@ -136,6 +139,7 @@
         
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src="src/fullPageJS/jquery.fullPage.js"></script>
+        <script src="src/vide/jquery.vide.min.js"></script>
         <script src="index.js"></script>
         
     </body>
