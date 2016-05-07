@@ -21,19 +21,17 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     
     font-family: "Open Sans";
-    font-size: 1.5em;
 }
 
 #navigation li a:hover {
-    background-color: rgba(30, 130, 76, 0.5);
+    background-color: rgba(36, 156, 91, 0.5);
 }
 
 #navigation .active {
-    background-color: rgba(30, 130, 76, 1);
+    background-color: rgba(36, 156, 91, 1);
     color: white;
 }
 
