@@ -2,32 +2,31 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    height: 4em;
-    
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    
     background-color: rgba(200, 200, 200, 0.7);
-}
-
-#navigation li {
-    float:left
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+    float: left;
+    z-index: 99;
 }
 
 #navigation li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: #FFF !important;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
     
     font-family: "Open Sans";
 }
 
+#navigation li .brand {
+    font-weight: 700;
+}
+
 #navigation li a:hover {
     background-color: rgba(36, 156, 91, 0.5);
+    color: white;
 }
 
 #navigation .active {
@@ -35,19 +34,32 @@
     color: white;
 }
 
+#ham {
+    position:fixed;
+    z-index: 100;
+    background-color: transparent!important;
+    border-radius: 0 !important;
+    
+    border-color: transparent !important;
+}
+
+#ham span {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px black;
+}
+
 #startseite .startseite-branding {
     position: absolute;
     z-index: 10;
     
     left: 0;
-    top: 50%;;
     width: 100%;
-    line-height: 0;
+    line-height: 1em;
     text-align: center;
     
     font-family: "Quicksand";
     font-weight: 700;
-    font-size: 6em;
     color: #FFFFFF;
     text-shadow: 0px 2px 15px #000000;
 }
