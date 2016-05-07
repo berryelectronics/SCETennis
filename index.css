@@ -2,7 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(200, 200, 200, 0.7);
+    background-color: rgba(0, 177, 106, 1);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -16,7 +16,6 @@
     color: #FFF !important;
     padding: 8px 16px 8px 16px;
     text-decoration: none;
-    
     font-family: "Open Sans";
 }
 
@@ -25,8 +24,8 @@
 }
 
 #navigation li a:hover {
-    background-color: rgba(36, 156, 91, 0.5);
-    color: white;
+    background-color: white;
+    color: black !important;
 }
 
 #navigation .active {
@@ -39,13 +38,11 @@
     z-index: 100;
     background-color: transparent!important;
     border-radius: 0 !important;
-    
     border-color: transparent !important;
 }
 
 #ham span {
     color: white;
-    font-size: 1.5em;
     text-shadow: 0 0 5px black;
 }
 
@@ -73,7 +70,12 @@
     font-family: "Open Sans";
 }
 
-#about-us h1,
+#about-us h1 {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
 #trainingszeiten h1 {
     text-align: center;
     font-weight: 700;

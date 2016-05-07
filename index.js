@@ -3,41 +3,98 @@ function resizeElements() {
     
     //For Ham Menue / Navigation
     if ($('#ham').hasClass('ham-visible')) {
+        
         if (screenWidth >= 1200) { //Large devices >= 1200px
             $('#navigation').css('width', '25%');
-            $('#ham').css('margin', '0 0 0 25%');
+            $('#navigation').animate({
+                left: "0"
+            }, 600);
+            $('#ham').animate({
+               margin: "0 0 0 25%"
+            }, 600);
         } else if (screenWidth >= 992) { //Medium devices >= 992
             $('#navigation').css('width', '25%');
-            $('#ham').css('margin', '0 0 0 25%');
+            $('#navigation').animate({
+                left: "0"
+            }, 600);
+            $('#ham').animate({
+               margin: "0 0 0 25%"
+            }, 600);
         } else if (screenWidth >= 768) { //Small devices >= 768
             $('#navigation').css('width', '25%');
-            $('#ham').css('margin', '0 0 0 25%');
+            $('#navigation').animate({
+                left: "0"
+            }, 600);
+            $('#ham').animate({
+               margin: "0 0 0 25%"
+            }, 600);
         } else { //Extra small devices < 768
             $('#navigation').css('width', '50%');
-            $('#ham').css('margin', '0 0 0 50%');
-            $('#startseite').find('.startseite-branding').css('font-size', '2em');
+            $('#navigation').animate({
+                left: "0"
+            }, 600);
+            $('#ham').animate({
+               margin: "0 0 0 50%"
+            }, 600);
+            
         }
     } else {
-        $('#navigation').css('width', '0');
-        $('#ham').css('margin', '0 0 0 0');
+        $('#ham').animate({
+           margin: "0 0 0 0"
+        }, 600);
+        
+        if (screenWidth >= 768) {
+            $('#navigation').animate({
+                left: "-25%"
+            }, 600);
+        } else {
+            $('#navigation').animate({
+                left: "-50%"
+            }, 600);
+        }
     }
     
     //General Purpose
     if (screenWidth >= 1200) { //Large devices >= 1200px
         $('#startseite').find('.startseite-branding').css('font-size', '6em');
-        $('#startseite').find('.startseite-branding').css('top', '50%');
+        $('#startseite').find('.startseite-branding').css('top', '45%');
+        
+        $('#ham').find('span').css('font-size', '2em');
+        
+        $('#about-us').find('h1').css('font-size', '5em');
+        $('#about-us').find('p').css('font-size', '1.5em');
     } else if (screenWidth >= 992) { //Medium devices >= 992
         $('#startseite').find('.startseite-branding').css('font-size', '5em');
-        $('#startseite').find('.startseite-branding').css('top', '50%');
+        $('#startseite').find('.startseite-branding').css('top', '45%');
+        
+        $('#ham').find('span').css('font-size', '2em');
+        
+        $('#about-us').find('h1').css('font-size', '5em');
+        $('#about-us').find('p').css('font-size', '1.5em');
     } else if (screenWidth >= 768) { //Small devices >= 768
         $('#startseite').find('.startseite-branding').css('font-size', '4.1em');
-        $('#startseite').find('.startseite-branding').css('top', '50%');
-    } else if(screenWidth > 390) { //Extra small devices < 768
+        $('#startseite').find('.startseite-branding').css('top', '45%');
+        
+        $('#ham').find('span').css('font-size', '2em');
+        
+        $('#about-us').find('h1').css('font-size', '4em');
+        $('#about-us').find('p').css('font-size', '1.5em');
+    } else if (screenWidth > 390) { //Extra small devices < 768
         $('#startseite').find('.startseite-branding').css('font-size', '4.1em');
         $('#startseite').find('.startseite-branding').css('top', '40%');
+        
+        $('#ham').find('span').css('font-size', '2em');
+        
+        $('#about-us').find('h1').css('font-size', '4em');
+        $('#about-us').find('p').css('font-size', '1.2em');
     } else {
         $('#startseite').find('.startseite-branding').css('font-size', '3em');
         $('#startseite').find('.startseite-branding').css('top', '40%');
+        
+        $('#ham').find('span').css('font-size', '1.5em');
+        
+        $('#about-us').find('h1').css('font-size', '3.5em');
+        $('#about-us').find('p').css('font-size', '1.2em');
     }
 }
 
