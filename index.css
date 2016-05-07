@@ -47,8 +47,9 @@
     
     font-family: "Quicksand";
     font-weight: 700;
-    font-size: 4em;
-    color: #ecf0f1;
+    font-size: 6em;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 15px #000000;
 }
 
 #startseite .fp-controlArrow {
