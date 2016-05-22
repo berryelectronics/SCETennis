@@ -1176,3 +1176,14 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+/* Impressum */
+
+#impressum {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#templated {
+    color: #68C3A3;
+}
