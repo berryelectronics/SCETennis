@@ -22,16 +22,21 @@
         <script src="./js/jquery.liquid-slider.min.js"></script>
         <script>
             $(function(){
-        $('#news-slider').liquidSlider();
+        $('#news-slider').liquidSlider({
+            minHeight: 500,
+            autoSlide: true,
+            autoSlideInterval: 15000,
+            slideEaseDuration: 1000
+        });
 });
 </script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
-            <link rel="stylesheet" href="./css/animate.css"> <!-- Optional -->
-            <link rel="stylesheet" href="./css/liquid-slider.css">
 		</noscript>
+        <link rel="stylesheet" href="css/animate.css"> <!-- Optional -->
+        <link rel="stylesheet" href="css/liquid-slider.css">
 	</head>
 	<body class="landing">
 
@@ -82,7 +87,7 @@
         
             <!-- News -->
                 <section id="news" class="wrapper style3 special">
-                    <div class="container">
+                    <div class="container" id="news-container">
                         <header class="major">
                             <h2>News</h2>
                             <p>Neuigkeiten aus unserem Tennisverein</p>
@@ -91,6 +96,15 @@
                         <div class="liquid-slider" id="news-slider">
                             <div> <h2 class="title">Datum</h2>
                             // Text hier \\
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                             </div>
                             <div> <h2 class="title">Datum</h2>
                             // Text hier \\

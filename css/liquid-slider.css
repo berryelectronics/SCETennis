@@ -28,7 +28,7 @@
 }
 .liquid-slider {
   background: #f2f2f2;
-  width: 600px;
+  width: auto;
   margin: 0 auto;
   float: left;
   overflow: hidden;
