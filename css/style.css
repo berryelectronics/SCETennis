@@ -1187,3 +1187,7 @@
 #templated {
     color: #68C3A3;
 }
+
+#news-container {
+    padding-bottom: 1em;
+}
