@@ -1189,7 +1189,7 @@
 }
 
 #news-container {
-   	margin: 0;
-width:100%;
-	padding: 1em;
+   	margin: 0 0 0 0;
+	width:100%;
+	padding: 1em 1em 1em 1em;
 }
