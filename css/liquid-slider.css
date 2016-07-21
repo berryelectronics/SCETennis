@@ -27,7 +27,7 @@
   position: relative;
 }
 .liquid-slider {
-  background: #f2f2f2;
+  background: #ECF0F1;
   width: auto;
   margin: 0 auto;
   float: left;
@@ -74,7 +74,7 @@
   clear:both;
 }
 .ls-nav a {
-  background: #d8d8d8;
+  background: #f2f2f2;
   color: #333333;
   margin-right: 1px;
   padding: 10px 15px;  
@@ -86,7 +86,7 @@
   text-shadow: none;
 }
 .ls-nav .current a {
-  background: #f2f2f2;
+  background: #ECF0F1;
 }
 .currentCrossLink {
   font-weight: bold;
